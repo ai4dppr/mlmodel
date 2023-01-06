@@ -35,7 +35,7 @@ if num_selected_symptoms > num_symptoms / 2:
     st.write("Possible PPR case at ", location)
 else:
     st.write("Not a possible PPR case")
-if location:
+#if location:
     #st.write("Your location is:", location)    
 
 if Comments:
