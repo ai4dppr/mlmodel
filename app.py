@@ -30,6 +30,7 @@ st.write(symptom_values)
 num_symptoms = len(symptoms)
 num_selected_symptoms = len(selected_symptoms)
 Comments = st.text_area("Enter your comments:")
+st.write("PREDICTED RESULTS")
 if num_selected_symptoms > num_symptoms / 2:
     st.write("Possible PPR case")
 else:
