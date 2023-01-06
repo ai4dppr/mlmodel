@@ -3,7 +3,7 @@ st.image('PPR.jpg', caption=None, width=None, use_column_width=None, clamp=False
 st.subheader("PREDICTING PESTE DES PETITS RUMINANTS WITH MACHINE LEARNING")
 
 st.write("PPR is a severe, fast-spreading disease of mainly domestic small ruminants. It is characterized by the sudden onset of depression, fever, discharges from the eyes and nose, sores in the mouth, disturbed breathing and cough, foul-smelling diarrhoea and death.")
-st.write("Clinical signs")
+#st.write("Clinical signs")
 
 symptoms = ["Rectal temperature >= 40° C","Loose faeces", "Depressed", "Sleepy", "Eyes Discharge", "Nose Discharge", "Mouth Sores", "Disturbed breathing", "Cough", "Foul-smelling Diarrhoea", "Erect Hair", "Dry eyeS"]
 
