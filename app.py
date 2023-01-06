@@ -32,11 +32,11 @@ num_selected_symptoms = len(selected_symptoms)
 Comments = st.text_area("Enter your comments:")
 st.write("PREDICTED RESULTS")
 if num_selected_symptoms > num_symptoms / 2:
-    st.write("Possible PPR case")
+    st.write("Possible PPR case at ", location)
 else:
     st.write("Not a possible PPR case")
 if location:
-    st.write("Your location is:", location)    
+    #st.write("Your location is:", location)    
 
 if Comments:
     st.write("Your Comments Are:", Comments)
