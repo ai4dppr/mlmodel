@@ -1,0 +1,11 @@
+streamlit
+pandas
+scikit-learn
+geocoder
+folium
+streamlit-folium
+openpyxl
+numpy
+pydeck
+geopy
+pickle5
