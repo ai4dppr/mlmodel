@@ -269,9 +269,7 @@ st.pydeck_chart(pdk.Deck(map_style="mapbox://styles/mapbox/light-v11", initial_v
 
 
 st.subheader("PPR Outbreak Map")
-st.write("""The Outbreak Map is a visual representation of the geographical distribution of 
-         PPR, CCPP and BlueTongue outbreaks. These highly contagious  diseases  
-         affects small ruminants, such as sheep and goats. The map displays the locations of 
+st.write("""The Outbreak Map displays the locations of 
          confirmed  outbreaks, helping researchers, veterinarians, and policymakers to better 
          understand the spatial 
          distribution of the disease and identify areas with a high concentration of cases.""")
