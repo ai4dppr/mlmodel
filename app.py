@@ -325,7 +325,7 @@ layers = [
         "ScatterplotLayer",
         data=locations_data,
         get_position=["longitude", "latitude"],
-        get_radius=5500,
+        get_radius=6000,
         get_fill_color=[255, 0, 0],
         pickable=True,
         auto_highlight=True,
